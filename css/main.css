@@ -1,0 +1,67 @@
+html {
+  box-sizing: border-box;
+  line-height: 1.5;
+  background-color: #dbd6d0;
+  font-family: "Bevan" cursive;
+  border: 3px solid #595652;
+  text-align: center;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Bevan", serif;
+  margin: 0;
+  color: #fff;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: normal;
+  padding: .6em;
+  display: inline-block;
+}
+
+nav a:hover {
+  background-color: #f33;
+  color: #595652;
+}
+
+.navigate {
+  margin: auto;
+  padding: 0;
+  list-style-type: none;
+  line-height: 1.5em;
+  font-family: sans-serif;
+  display: inline-block;
+}
+
+header {
+  display: block;
+}
+
+li {
+  margin: 0;
+  padding: .6em;
+  display: inline-block;
+  max-width: 20em;
+  background-color: #713837;
+  text-decoration: none;
+  list-style-type: none;
+  border-radius: 5px;
+}
+
+body {
+  background-color: #79756f;
+  padding: .5em;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: .3em;
+}
