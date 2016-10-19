@@ -2,7 +2,7 @@ html {
   box-sizing: border-box;
   line-height: 1.5;
   background-color: #dbd6d0;
-  font-family: "Bevan" cursive;
+  font-family: "Bevan", cursive;
   border: 3px solid #595652;
   text-align: center;
 }
@@ -22,8 +22,9 @@ nav a {
   color: #fff;
   text-decoration: none;
   font-weight: normal;
-  padding: .6em;
+  padding: .5em;
   display: inline-block;
+  box-sizing: inherit;
 }
 
 nav a:hover {
@@ -33,7 +34,6 @@ nav a:hover {
 
 .navigate {
   margin: auto;
-  padding: 0;
   list-style-type: none;
   line-height: 1.5em;
   font-family: sans-serif;
@@ -46,7 +46,6 @@ header {
 
 li {
   margin: 0;
-  padding: .6em;
   display: inline-block;
   max-width: 20em;
   background-color: #713837;
@@ -57,11 +56,10 @@ li {
 
 body {
   background-color: #79756f;
-  padding: .5em;
   margin: 0;
 }
 
 nav li {
   display: inline-block;
-  margin: .3em;
+  margin: 0;
 }
